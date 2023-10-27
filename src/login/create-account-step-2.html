@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>100x</title>
+<link href="../../dist/output.css" rel="stylesheet" />
+</head>
+<body class="flex flex-col justify-between bg-neutral-1000 w-screen h-screen font-inter">
+    <!-- Notes: Used justify-between to push button to the bottom.
+    it gives space between two flex items main and div:button in column axis -->
+    <!-- section 1 -->
+    <main class="flex flex-col mx-[15px]">
+        <!-- section 1 -->
+        <!-- step 1 of 4 and X sign -->
+        <header class="flex flex-row gap-5 py-3 sticky top-0 bg-neutral-1000">
+            <a href="../login/create-account-step-1.html">
+                <img src="../../public/images/cancel.svg" alt="cancel">
+            </a>
+            <div><p class="text-[15px] font-bold leading-normal text-neutral-50">Step 2 of 4</p></div>
+        </header>
+        <!-- section 2 -->
+        <section class="flex flex-col mt-3">
+            <!-- create your account text -->
+            <div>
+                <p class="text-neutral-50 text-2xl font-bold leading-normal">Create your account</p>
+            </div>
+            <!-- Name Input -->
+            <div class="mt-5">
+                <fieldset class="w-full px-2 border border-neutral-500 rounded group focus-within:border-twitter-blue-default inline-flex">
+                    <legend class="px-1 text-neutral-500 text-12 font-medium group-focus-within:text-twitter-blue-default">
+                        Name
+                    </legend>
+                    <input type="text" placeholder="Name" class="w-full px-2 pb-3 bg-transparent focus:outline-none text-neutral-50 placeholder:text-neutral-500 text-xl font-normal ">
+                    <img src="../../public/images/correct.svg" alt="valid" class="pb-3 opacity-0 group-focus-within:opacity-100">
+                </fieldset>
+            </div>
+            <!-- email input -->
+            <div class="mt-8">
+                <fieldset class="w-full px-2 border border-neutral-500 rounded group focus-within:border-twitter-blue-default inline-flex">
+                    <legend class="px-1 text-neutral-500 text-12 font-medium group-focus-within:text-twitter-blue-default">
+                        Email
+                    </legend>
+                    <input type="text" placeholder="Email" class="w-full px-2 pb-3 bg-transparent focus:outline-none text-neutral-50 placeholder:text-neutral-500 text-xl font-normal ">
+                    <img src="../../public/images/correct.svg" alt="valid" class="pb-3 opacity-0 group-focus-within:opacity-100">
+                </fieldset>
+            </div>
+            <!-- DOB and text below it -->
+            <div class="mt-8">
+                <fieldset class="w-full px-2 border border-neutral-500 rounded group focus-within:border-twitter-blue-default inline-flex">
+                    <legend class="px-1 text-neutral-500 text-12 font-medium group-focus-within:text-twitter-blue-default">
+                        Date of Birth
+                    </legend>
+                    <input type="text" placeholder="Date of Birth" class="w-full px-2 pb-3 bg-transparent focus:outline-none text-neutral-50 placeholder:text-neutral-500 text-xl font-normal ">
+                    <img src="../../public/images/correct.svg" alt="valid" class="pb-3 opacity-0 group-focus-within:opacity-100">
+                </fieldset>
+            </div>
+        </section>
+    </main>
+    <!-- section 2 -->
+    <!-- Sign Up Button -->
+    <div class="mb-5 px-5 w-full">
+        <a href="../../src/login/create-account-step-3.html">
+            <button class="p-5 w-full bg-twitter-blue-default hover:bg-twitter-blue-hover active:bg-twitter-blue-hover rounded-full shadow-button-custom-shadow backdrop-blur-xl font-inter text-neutral-50 text-base leading-normal font-bold">
+                Sign Up
+            </button>
+        </a>
+    </div>
+</body>
+</html>

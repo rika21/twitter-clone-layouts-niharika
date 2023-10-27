@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>100x</title>
+    <link href="../../dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-neutral-1000 w-screen h-screen font-inter">
+    <main class="flex flex-col mx-4">
+        <!-- back; Edit profile; save -->
+        <div class="flex flex-row justify-between py-3 items-center">
+            <!-- back; Edit Profile -->
+            <div class="flex flex-row gap-5">
+                <a href="../user-profile/index.html" class="min-w-fit">
+                    <button>
+                        <img src="../../public/images/back.svg" alt="">
+                    </button>
+                </a>
+                <p class="w-full text-base font-bold text-neutral-50">Edit Profile</p>
+            </div>
+            <!-- save -->
+            <a href="../user-profile/index.html">
+                <button class="px-5 py-2 bg-neutral-50 hover:bg-neutral-200 active:bg-neutral-200 rounded-full shadow-button-custom-shadow text-neutral-1000 text-sm leading-normal font-bold">
+                    Save
+                </button>
+            </a>
+        </div>
+        <!-- background cover -->
+        <div class="flex flex-col relative mt-3">
+            <img src="../../public/images/background-image-2.png" alt="bg-cover">
+            <!-- profile image -->
+            <div class="min-w-fit">
+                <img src="../../public/images/user-avata-feed.png" alt="" class="absolute top-[132px] left-[10px]">
+                <!-- add a photo -->
+                <button class="absolute p-1 rounded-full bg-cancel-profile-button-background top-[156px] left-[34px]">
+                    <img src="../../public/images/add-a-photo.svg" alt="">
+                </button>
+            </div>
+            <!-- cancel and add photo -->
+            <div class="flex flex-row gap-2 absolute top-[84px] left-[143px]">
+                <!-- add a photo -->
+                <button class="p-1 rounded-full bg-cancel-profile-button-background">
+                    <img src="../../public/images/add-a-photo.svg" alt="">
+                </button>
+                <!-- cancel -->
+                <button class="p-1 rounded-full bg-cancel-profile-button-background">
+                    <img src="../../public/images/cancel.svg" alt="">
+                </button>
+            </div>
+        </div>
+        <!-- All the inputs -->
+        <div class="flex flex-col gap-5">
+            <!-- name -->
+            <div class="mt-6">
+                <fieldset class="w-full px-2 border border-neutral-500 rounded group focus-within:border-twitter-blue-default inline-flex">
+                    <legend class="px-1 text-neutral-500 text-12 font-medium group-focus-within:text-twitter-blue-default">
+                        Name
+                    </legend>
+                    <input type="text" placeholder="Name" class="w-full px-2 pb-3 bg-transparent focus:outline-none text-neutral-50 placeholder:text-neutral-700 text-[15px] font-normal ">
+                    <img src="../../public/images/correct.svg" alt="valid" class="pb-3 opacity-0 group-focus-within:opacity-100">
+                </fieldset>
+            </div>
+            <!-- bio -->
+            <div>
+                <fieldset class="w-full px-2 border border-neutral-500 rounded group focus-within:border-twitter-blue-default inline-flex">
+                    <legend class="px-1 text-neutral-500 text-12 font-medium group-focus-within:text-twitter-blue-default">
+                        Bio
+                    </legend>
+                    <input type="text" placeholder="Bio" class="w-full px-2 pb-3 bg-transparent focus:outline-none text-neutral-50 placeholder:text-neutral-700 text-[15px] font-normal ">
+                    <img src="../../public/images/correct.svg" alt="valid" class="pb-3 opacity-0 group-focus-within:opacity-100">
+                </fieldset>
+            </div>
+            <!-- location -->
+            <div>
+                <fieldset class="w-full px-2 border border-neutral-500 rounded group focus-within:border-twitter-blue-default inline-flex">
+                    <legend class="px-1 text-neutral-500 text-12 font-medium group-focus-within:text-twitter-blue-default">
+                        Loaction
+                    </legend>
+                    <input type="text" placeholder="Location" class="w-full px-2 pb-3 bg-transparent focus:outline-none text-neutral-50 placeholder:text-neutral-700 text-[15px] font-normal ">
+                    <img src="../../public/images/correct.svg" alt="valid" class="pb-3 opacity-0 group-focus-within:opacity-100">
+                </fieldset>
+            </div>
+            <!-- website -->
+            <div>
+                <fieldset class="w-full px-2 border border-neutral-500 rounded group focus-within:border-twitter-blue-default inline-flex">
+                    <legend class="px-1 text-neutral-500 text-12 font-medium group-focus-within:text-twitter-blue-default">
+                        Website
+                    </legend>
+                    <input type="text" placeholder="Website" class="w-full px-2 pb-3 bg-transparent focus:outline-none text-neutral-50 placeholder:text-neutral-700 text-[15px] font-normal ">
+                    <img src="../../public/images/correct.svg" alt="valid" class="pb-3 opacity-0 group-focus-within:opacity-100">
+                </fieldset>
+            </div>
+        </div>
+        
+        
+    </main>
+    
+  </body>
+</html>

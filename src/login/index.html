@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>100x</title>
+    <link href="../../dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-neutral-1000 w-full h-full font-inter">
+    <!-- 100x logo header -->
+    <header class="flex justify-center items-center py-3 px-5 bg-neutral-1000">
+        <img src="../../public/images/100xLogo.svg" alt="">
+    </header>
+    <!-- main content -->
+    <main class="flex flex-col gap-10 w-full mt-48 px-[28px]">
+        <!-- happening now; join today -->
+        <div class="flex flex-col gap-3 text-neutral-50">
+            <p class="text-31 font-extrabold leading-normal">Happening now</p>
+            <p class="text-base font-medium leading-normal">Join today.</p>
+        </div>
+        <!-- create account button -->
+        <div>
+            <a href="../../src/login/create-account-step-1.html">
+                <button class="px-6 py-2 w-full bg-neutral-50 hover:bg-neutral-200 active:bg-neutral-200 rounded-full shadow-button-custom-shadow backdrop-blur-xl font-inter text-neutral-1000 text-16 leading-normal font-bold">
+                    Create Account
+                </button>
+            </a>
+        </div>
+        <!-- onclick="window.open(this.href, 'targetWindow', 'width=390,height=824'); return false;" -->
+        <!-- or -->
+        <div class="flex flex-row gap-1 items-center">
+            <div class="h-[1px] w-full bg-neutral-700"></div>
+            <span class="font-chirp text-neutral-50 text-base font-normal text-center">or</span>
+            <div class="h-[1px] w-full bg-neutral-700"></div>
+        </div>
+        <!-- already have an account;sign in -->
+        <div class="flex flex-col gap-5">
+            <p class="text-[15px] text-neutral-50 font-normal leading-normal">Already have an account?</p>
+            <button class="px-6 py-2 w-full border border-twitter-blue-default active:bg-button-stroke rounded-full gap-2.5 shadow-button-custom-shadow backdrop-blur-xl font-inter text-twitter-blue-default text-16 leading-normal font-bold">
+                Sign Up
+            </button>
+        </div>
+    </main>
+  </body>
+</html>

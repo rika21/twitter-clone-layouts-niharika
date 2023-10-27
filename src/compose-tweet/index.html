@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>100x</title>
+    <link href="../../dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-neutral-1000 flex flex-col justify-between w-screen h-screen font-inter">
+    <main class="flex flex-col">
+        <header class="flex flex-row justify-between px-4 py-3 sticky top-0 bg-neutral-1000">
+            <button>
+              <a href="../home-feed/index.html">
+                <img src="../../public/images/cancel.svg" alt="cross">
+              </a>
+            </button>
+            <a href="../home-feed/index.html">
+              <button class="px-6 py-2 w-auto bg-twitter-blue-default hover:bg-twitter-blue-hover active:bg-twitter-blue-hover rounded-full shadow-button-custom-shadow backdrop-blur-xl font-inter text-neutral-50 text-16 leading-normal font-bold">
+                Post
+              </button>
+            </a>
+        </header>
+        <div class="flex flex-row px-4 py-2 gap-3">
+            <img src="../../public/images/user-avatar.png" alt="valid" class="pb-3">
+            <input type="text" placeholder="What's happening?" class="px-2 pb-3 caret-twitter-blue-default bg-transparent focus:outline-none placeholder:text-neutral-500 text-neutral-50  text-xl font-normal ">
+        </div> 
+    </main> 
+    <footer class="flex flex-row px-4 py-3 border-t-[1px] border-neutral-700">
+        <p class="text-neutral-500 text-sm">0/280</p>
+    </footer> 
+  </body>
+</html>

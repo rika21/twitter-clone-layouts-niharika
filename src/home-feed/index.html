@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Feed</title>
+    <link href="../../dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-neutral-1000 w-full h-full font-inter">
+    <!-- 100x logo header; for you; following -->
+    <header class="flex flex-col sticky top-0 bg-neutral-1000">
+        <div class="flex flex-row items-center gap-32 py-3 px-5 border-b-[1px] border-neutral-700">
+            <img src="../../public/images/user-avatar.png" alt="">
+            <img src="../../public/images/100xLogo.svg" alt="">
+        </div>
+        <!-- for you; for following -->
+        <div class="w-full border-b-[1px] border-neutral-700 px-20 pt-5 flex justify-center gap-40">
+            <button class="group pb-4 border-b-2 border-transparent hover:border-twitter-blue-default active:border-twitter-blue-default hover:pb-2 text-neutral-50 hover:text-neutral-400 text-base font-medium whitespace-nowrap">
+                For you
+            </button>
+            <button class="group pb-4 border-b-2 border-transparent hover:border-twitter-blue-default active:border-twitter-blue-default hover:pb-2 text-neutral-50 hover:text-neutral-400 text-base font-medium">
+                Following
+            </button>
+        </div>
+    </header>
+    <!-- main content -->
+    <main class="flex flex-col">
+        <!-- User 1 -->
+        <div class="w-full flex flex-row border-b-[1px] border-neutral-700 px-4 py-2 gap-4">
+            <!-- profile pic -->
+            <div class="min-w-fit">
+                <img src="../../public/images/user1.png" alt="pp" class="w-12 h-12 object-cover">
+            </div>
+            <!-- content -->
+            <div class="flex flex-col gap-2 w-full">
+                <!-- name and content -->
+                <div class="flex flex-col gap-1">
+                    <!-- name; handle; time -->
+                    <div class="flex flex-row gap-2">
+                        <p class="text-neutral-50 text-base font-medium">Name</p>
+                        <p class="text-neutral-500 text-base font-normal">@handle • 32m</p>
+                    </div>
+                    <!-- user post feed -->
+                    <div>
+                        <p class="text-neutral-50 text-[15px] text-base font-normal">Don't wish for it, work for it.</p>
+                    </div>
+                </div>
+                <!-- action buttons -->
+                <div class="my-3 flex flex-row justify-between">
+                    <div class="flex flex-row gap-[5px]">
+                        <img src="../../public/images/comment.svg" alt="comment">
+                        <span class="text-neutral-500 font-normal text-sm">11</span>
+                    </div>
+                    <div class="flex flex-row gap-[5px]">
+                        <img src="../../public/images/retweet.svg" alt="comment">
+                        <span class="text-neutral-500 font-normal text-sm">270</span>
+                    </div>
+                    <div class="flex flex-row gap-[5px]">
+                        <img src="../../public/images/heart.svg" alt="comment">
+                        <span class="text-neutral-500 font-normal text-sm">1,869</span>
+                    </div>
+                    <div class="flex flex-row gap-[5px]">
+                        <img src="../../public/images/reach.svg" alt="comment">
+                        <span class="text-neutral-500 font-normal text-sm">99.6k</span>
+                    </div>
+                    <div class="flex flex-row gap-[5px]">
+                        <img src="../../public/images/share.svg" alt="comment">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- User 2 -->
+        <div class="w-full flex flex-row border-b-[1px] border-neutral-700 px-4 py-2 gap-4">
+            <!-- profile pic -->
+            <div class="min-w-fit">
+                <img src="../../public/images/user2.png" alt="pp" class="w-12 h-12 object-cover">
+            </div>
+            <!-- content -->
+            <div class="flex flex-col gap-2 w-full">
+                <!-- name and content -->
+                <div class="flex flex-col gap-1">
+                    <!-- name; handle; time -->
+                    <div class="flex flex-row gap-2">
+                        <p class="text-neutral-50 text-base font-medium">Name</p>
+                        <p class="text-neutral-500 text-base font-normal">@handle • 32m</p>
+                    </div>
+                    <!-- user post feed -->
+                    <div>
+                        <p class="text-neutral-50 text-[15px] text-base font-normal">
+                        i've seen people absolutely despise auto layout in figma but i think it's a lifesaver- 1. tidies everything nice and
+                        compact 2. makes responsive design effortless 3. no manual adjustments post any tweaks 4. saves a tonnn of time  sorry,
+                        but will stay an auto layout maxi all life.
+                        </p>
+                    </div>
+                </div>
+                <!-- action buttons -->
+                <div class="my-3 flex flex-row justify-between">
+                    <div class="flex flex-row gap-[5px]">
+                        <img src="../../public/images/comment.svg" alt="comment">
+                        <span class="text-neutral-500 font-normal text-sm">11</span>
+                    </div>
+                    <div class="flex flex-row gap-[5px]">
+                        <img src="../../public/images/retweet.svg" alt="comment">
+                        <span class="text-neutral-500 font-normal text-sm">270</span>
+                    </div>
+                    <div class="flex flex-row gap-[5px]">
+                        <img src="../../public/images/heart.svg" alt="comment">
+                        <span class="text-neutral-500 font-normal text-sm">1,869</span>
+                    </div>
+                    <div class="flex flex-row gap-[5px]">
+                        <img src="../../public/images/reach.svg" alt="comment">
+                        <span class="text-neutral-500 font-normal text-sm">99.6k</span>
+                    </div>
+                    <div class="flex flex-row gap-[5px]">
+                        <img src="../../public/images/share.svg" alt="comment">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- User 3 -->
+        <div class="w-full flex flex-row border-b-[1px] border-neutral-700 px-4 py-2 gap-4">
+            <!-- profile pic -->
+            <div class="min-w-fit">
+                <img src="../../public/images/user-avatar-2.png" alt="pp" class="w-12 h-12 object-cover">
+            </div>
+            <!-- content -->
+            <div class="flex flex-col gap-2 w-full">
+                <!-- name and content -->
+                <div class="flex flex-col gap-1">
+                    <!-- name; handle; time -->
+                    <div class="flex flex-row gap-2">
+                        <p class="text-neutral-50 text-base font-medium">Name</p>
+                        <p class="text-neutral-500 text-base font-normal">@handle • 32m</p>
+                    </div>
+                    <!-- user post feed -->
+                    <div>
+                        <p class="text-neutral-50 text-[15px] text-base font-normal">
+                            Writing gets easier after the first sentence.  Lifting gets easier after the first set.  People think and think and
+                            think until they finally decide to act. Their attention shifts from internal to external, and the difficulty they
+                            created in their mind vanishes.
+                        </p>
+                    </div>
+                </div>
+                <!-- action buttons -->
+                <div class="my-3 flex flex-row justify-between">
+                    <div class="flex flex-row gap-[5px]">
+                        <img src="../../public/images/comment.svg" alt="comment">
+                        <span class="text-neutral-500 font-normal text-sm">11</span>
+                    </div>
+                    <div class="flex flex-row gap-[5px]">
+                        <img src="../../public/images/retweet.svg" alt="comment">
+                        <span class="text-neutral-500 font-normal text-sm">270</span>
+                    </div>
+                    <div class="flex flex-row gap-[5px]">
+                        <img src="../../public/images/heart.svg" alt="comment">
+                        <span class="text-neutral-500 font-normal text-sm">1,869</span>
+                    </div>
+                    <div class="flex flex-row gap-[5px]">
+                        <img src="../../public/images/reach.svg" alt="comment">
+                        <span class="text-neutral-500 font-normal text-sm">99.6k</span>
+                    </div>
+                    <div class="flex flex-row gap-[5px]">
+                        <img src="../../public/images/share.svg" alt="comment">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- User 4 -->
+        <div class="w-full flex flex-row border-b-[1px] border-neutral-700 px-4 py-2 gap-4">
+            <!-- profile pic -->
+            <div class="min-w-fit">
+                <img src="../../public/images/user-avatar-2.png" alt="pp" class="w-12 h-12 object-cover">
+            </div>
+            <!-- content -->
+            <div class="flex flex-col gap-2 w-full">
+                <!-- name and content -->
+                <div class="flex flex-col gap-1">
+                    <!-- name; handle; time -->
+                    <div class="flex flex-row gap-2">
+                        <p class="text-neutral-50 text-base font-medium">Name</p>
+                        <p class="text-neutral-500 text-base font-normal">@handle • 32m</p>
+                    </div>
+                    <!-- user post feed -->
+                    <div>
+                        <p class="text-neutral-50 text-[15px] text-base font-normal">
+                            Writing gets easier after the first sentence.  Lifting gets easier after the first set.  People think and think and
+                            think until they finally decide to act. Their attention shifts from internal to external, and the difficulty they
+                            created in their mind vanishes.
+                        </p>
+                    </div>
+                </div>
+                <!-- action buttons -->
+                <div class="my-3 flex flex-row justify-between">
+                    <div class="flex flex-row gap-[5px]">
+                        <img src="../../public/images/comment.svg" alt="comment">
+                        <span class="text-neutral-500 font-normal text-sm">11</span>
+                    </div>
+                    <div class="flex flex-row gap-[5px]">
+                        <img src="../../public/images/retweet.svg" alt="comment">
+                        <span class="text-neutral-500 font-normal text-sm">270</span>
+                    </div>
+                    <div class="flex flex-row gap-[5px]">
+                        <img src="../../public/images/heart.svg" alt="comment">
+                        <span class="text-neutral-500 font-normal text-sm">1,869</span>
+                    </div>
+                    <div class="flex flex-row gap-[5px]">
+                        <img src="../../public/images/reach.svg" alt="comment">
+                        <span class="text-neutral-500 font-normal text-sm">99.6k</span>
+                    </div>
+                    <div class="flex flex-row gap-[5px]">
+                        <img src="../../public/images/share.svg" alt="comment">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Plus: Compose Tweet -->
+    <a href="../compose-tweet/index.html">
+        <button class="inline-flex flex-start gap-2.5 p-4 fixed bottom-[72px] right-[22px] shrink-0 rounded-full bg-twitter-blue-default">
+            <img src="../../public/images/add.png" alt="">
+        </button>
+    </a>
+    <!-- toast message -->
+    <div class="felx justify-center items-center fixed right-[91px] bottom-[72px] py-3 px-8 rounded-full bg-searchbar-fill ">
+        <p class="text-neutral-50 text-0.9375rem font-normal ">Copied to clipboard.</p>
+    </div>
+    <!-- home and user page -->
+    <footer class="bg-neutral-1000 flex flex-row gap-10 px-6 py-[18px] justify-center items-center sticky bottom-0 border-t-[1px] border-neutral-700">
+        <div class="group cursor-pointer">
+            <img src="../../public/images/home-active.png" alt="First Image" class="group-hover:inline-block hidden"/>
+            <img src="../../public/images/home-inactive.png" alt="Second Image" class="inline-block group-hover:hidden" />
+        </div>
+        <a href="../user-profile/index.html">
+            <div class="group cursor-pointer">
+                <img src="../../public/images/user-active.svg" alt="First Image" class="group-hover:inline-block hidden"/>
+                <img src="../../public/images/user-inactive.svg" alt="Second Image" class="inline-block group-hover:hidden" />
+            </div>
+        </a>
+    </footer>
+  </body>
+</html>
